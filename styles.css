@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: "Cascadia Mono", Consolas, "Courier New", monospace;
+    font-family: Consolas, "Cascadia Mono", "Courier New", monospace;
     font-size: 18px;
 }
 
