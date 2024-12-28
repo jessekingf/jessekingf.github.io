@@ -1,7 +1,14 @@
+:root {
+    --font-family: Consolas, "Cascadia Mono", "Courier New", monospace;
+    --background-color: black;
+    --font-color: #CCCCCC;
+    --border-color: #00ffff;
+}
+
 body {
-    background-color: black;
-    color: white;
-    font-family: Consolas, "Cascadia Mono", "Courier New", monospace;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
     font-size: 18px;
 }
 
@@ -9,7 +16,16 @@ input {
     font-family: inherit;
     color: inherit;
     font-size: inherit;
-    background-color: black;
-    border: 1px solid white;
+    background-color: inherit;
+    border: 1px solid var(--border-color);
     padding: 5px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
