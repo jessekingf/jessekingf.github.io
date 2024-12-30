@@ -1,8 +1,8 @@
 :root {
     --font-family: Consolas, "Cascadia Mono", "Courier New", monospace;
-    --background-color: black;
+    --background-color: #0C0C0C;
     --font-color: #CCCCCC;
-    --border-color: #00ffff;
+    --accent-color: #61D6D6;
 }
 
 body {
@@ -12,12 +12,18 @@ body {
     font-size: 18px;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--font-color);
+}
+
 input {
     font-family: inherit;
     color: inherit;
     font-size: inherit;
     background-color: inherit;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--accent-color);
     padding: 5px;
 }
 
