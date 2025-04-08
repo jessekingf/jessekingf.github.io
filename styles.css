@@ -1,5 +1,5 @@
 :root {
-    --font-family: Consolas, "Cascadia Mono", "Courier New", monospace;
+    --font-family: "JetBrains Mono", Consolas, "Cascadia Mono", "Courier New", monospace;
     --background-color: #0C0C0C;
     --font-color: #CCCCCC;
     --accent-color: #61D6D6;
