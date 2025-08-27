@@ -1,0 +1,37 @@
+:root {
+    --font-family: "JetBrains Mono", Consolas, "Cascadia Mono", "Courier New", monospace;
+    --background-color: #0C0C0C;
+    --font-color: #CCCCCC;
+    --accent-color: #61D6D6;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--font-color);
+}
+
+input {
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    background-color: inherit;
+    border: 1px solid var(--accent-color);
+    padding: 5px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}

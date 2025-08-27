@@ -1,0 +1,51 @@
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    color: var(--accent-color);
+    margin: 0px;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.search {
+    margin: 25px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 800px;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.links {
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-box {
+    border: 1px solid var(--accent-color);
+    padding: 25px;
+    margin: 25px;
+}
