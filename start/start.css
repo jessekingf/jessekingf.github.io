@@ -1,3 +1,7 @@
+body {
+    font-size: 20px;
+}
+
 a:link {
     text-decoration: none;
     color: inherit;
@@ -17,14 +21,18 @@ a:active {
 h3 {
     color: var(--accent-color);
     margin: 0px;
-    text-align: center;
+    text-align: left;
 }
 
 ul {
     list-style-position: inside;
-    padding-left: 0;
-    margin-left: 0;
-    margin-bottom: 0;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+li {
+    margin-bottom: 2px;
 }
 
 .search {
